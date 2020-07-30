@@ -2,4 +2,4 @@
 
 ![Quiz App](./images/quiz-app.gif )
 
-[Quiz App Demo](https://ayshasanyang.github.io/Quiz-App/index.html")
+[Quiz App Demo](https://ayshasanyang.github.io/Quiz-App/")
