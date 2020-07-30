@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato;
+}
+
+#bg-image{
+    background: url("../images/bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(245, 237, 245);
+}
+
+.welcome_text {
+    width: 400px;
+}
+
+.welcome_form input,
+.welcome_form button {
+    display: block;
+    width: 100%;
+}
+
+.welcome_form input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}    
+
+.welcome_form input:focus {
+    outline: none;
+  }  
+
+  .form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+  }
+
+.form input{
+    display: inline-block;
+    margin: 10px 0 10px 0;
+   
+}
+
+.forgot-pass {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #cfcfcf;
+}
+
+
+a{
+  color: #fff;
+  padding-left: 20px;
+}
+
+a:hover, a:link, a:active {
+  text-decoration: none;
+  box-shadow: none;
+  color: #ba5d53;
+}
+
+.quiz {
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.quiz_header {
+    justify-content: space-between;
+    display: flex;
+    background-color: #066F90;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.quiz_body {
+    padding: 30px 30px;
+    background-color: #ecf0f1;
+}
+
+.quiz-end{
+  background-color: #066f90;
+  min-width: 600px;
+  min-height: 200px;
+}
+.quiz_user {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    background-color: #066F90;
+    color: #fff;
+   
+}
+
+.quiz_timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    background-color: #066F90;
+    color: #fff;
+  }
+
+  .quiz_body {
+    background-color: #ecf0f1;
+    border: 2px solid #066F90;
+  }
+ 
+.option_group {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.option {
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 2px solid #6495ed;
+}
+
+.option.active {
+    background-color: #6495ed;
+    color: #fff;
+  }
+
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: #066F90;
+  color: #fff;
+  border-radius: 27px;
+  transition: 0.4s all;
+}
+
+.btn-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #6495ed;
+}
+
+label {
+  padding-right: 0.5px;
+  color: #fff;
+}
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #fff;
+}
+
+.username,
+.userpoints,
+.usertime {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.button {
+    font-size: 22px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #6495ed;
+    transition: 0.4s all;
+  }
+  
+  .button span  {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* high scores */
+#highScores {
+  background-color: #066f90;
+  min-width: 700px;
+  min-height:300px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+  #highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    color: #a9a9a9;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+    transform: scale(1.025);
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div id="end" class="quiz-end">
+           <i class="fas fa-award award_icon"></i>
+           <h3 class="username">well done! <span class="name"></span></h3>
+           <p class="userpoints">Your Points <span class="points"></span></p>
+         <p class="usertime"> Time taken <span class="time_taken"></span></p>
+
+         <h1 id="finalScore">hi</h1>
+
+         <form class="form">
+           <label>Enter Initials
+
+           </label>
+           <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Initials"
+            />
+            <button
+              type="submit"
+              class="btn"
+              id="saveScoreBtn"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Save
+            </button>
+          </form>
+
+        <p class="forgot-pass">
+        <a class="btn" href="quiz.html">Play Again</a>
+        <a class="btn" href="start.html">Go Home</a>
+        <a class="btn" href="highscores.html">High Scores</a>
+        </p>
+        </div>
+      </section>
+    <!-- <script src="https://kit.fontawesome.com/d56261bbb9.js"></script> -->
+
+
+        <!-- user info -->
+        <script src="javascript/start.js"></script>
+</body>
+</html>
